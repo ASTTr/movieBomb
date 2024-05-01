@@ -49,7 +49,7 @@ export const MovieByGenre = (selectedGenre) => {
   };
 
   return (
-    <React.Fragment>
+    <div>
       <div className="max-w-screen px-8 flex text-gray-400 bg-gradient-to-r  from-black via-gray-700 to-gray-600">
         <div className=" my-3">
           <div className="flex flex-wrap py-2 ">
@@ -104,6 +104,6 @@ export const MovieByGenre = (selectedGenre) => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
