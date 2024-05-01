@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connect = async () => {
   try {
-    mongoose.connect(mongodb+srv://sondhiritik666:US8xZqVQZ9qtJ6UU@cluster0.ix0bij3.mongodb.net/);
+    mongoose.connect(mongodb://127.0.0.1:27017/movieBomb);
 
     const connection = mongoose.connection;
     connection.on("connected", () => console.log("connected to db"));
