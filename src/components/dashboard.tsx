@@ -5,9 +5,9 @@ import { MovieByGenre } from "./moviesByGenre";
 
 export const Dashoard = () => {
   return (
-    <React.Fragment>
+    <div>
       <TopMovies />
       <MovieByGenre />
-    </React.Fragment>
+    </div>
   );
 };
